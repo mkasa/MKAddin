@@ -6,6 +6,7 @@ Copy the following two files to
 C:\Users\%UserName%\AppData\Roaming\Microsoft\VisualStudio\9.0\Addins
 Please replace %UserName% with the actual user name. If you use other
 version of Visual Studio than 9.0, replace it with the one you use.
+The directory differs when you use other Windows version than Vista/7.
 
 File list:
 	MKAddin\MKAddin.AddIn
@@ -20,8 +21,8 @@ You can make it loaded on start-up there.
 ****************
 
 Not all of the commands added by MKAddin are accessible from the toolbar.
-We recommend that keyboard shotcut keys be registered. For you information,
-my shortcut settings are:
+We recommend that keyboard shotcut keys be registered. You can use any
+shotcut keys, but for you information, my shortcut settings are:
 
 	CTRL+O      ReTab
 	CTRL+J      CancelRet
@@ -35,7 +36,7 @@ my shortcut settings are:
 
 This add-in was tested with Visual Studio 2008 (English ver.) on Windows 7.
 It may not work well with localized version of the Visual Studio.
-
+(However, I guess it works well with localized version.)
 
 ****************
      License
